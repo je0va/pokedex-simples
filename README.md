@@ -32,5 +32,5 @@ Um projeto simples de Pokédex feito com HTML, CSS e JavaScript, utilizando a [P
 Basta clonar o repositório e abrir o arquivo `index.html` em seu navegador:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/je0va/pokedex-simples.git
 ```
