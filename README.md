@@ -34,3 +34,8 @@ Basta clonar o repositório e abrir o arquivo `index.html` em seu navegador:
 ```bash
 git clone https://github.com/je0va/pokedex-simples.git
 ```
+## 🌐 Demonstração
+
+Este projeto está disponível online através do GitHub Pages:
+
+🔗 [https://je0va.github.io/pokedex-simples/](https://je0va.github.io/pokedex-simples/)
