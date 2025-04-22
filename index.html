@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="content-wrapper">
+      <header>
+        <h1>Pokédex Simples</h1>
+        <div class="search-camp">
+          <input
+            id="search-input"
+            type="text"
+            placeholder="Digite o nome ou número do pokemon"
+          /><button id="search-btn">Pesquisar</button>
+        </div>
+      </header>
+      <main>
+        <div id="status-msg">
+          <p>Digite o nome ou número de um Pokémon para começar</p>
+        </div>
+        <div id="spinner"></div>
+
+        <div id="pok-card" class="pok-card fade-in hidden">
+          <div class="pok-header">
+            <div class="sprite-container">
+              <img
+                class="sprite"
+                id="sprite"
+                src=""
+                alt="pokemon-img"
+                srcset=""
+              />
+            </div>
+            <div class="align-text pok-info">
+              <h2 id="pok-name">picachu</h2>
+              <h3 id="pok-type">eletric</h3>
+            </div>
+          </div>
+          <div class="pok-inf">
+            <p>Height: <span id="pok-height"></span></p>
+            <p>Weight: <span id="pok-weight"></span></p>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer>
+      <p>
+        API usada:
+        <a href="https://pokeapi.co/docs/v2"> PokéAPI v2 </a>.
+      </p>
+
+      <p>Projeto pessoal sem fins lucrativos.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
